@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	
+    	<entry>
+    		<category term='filter'></category>
+    		<title>Mail Filter</title>
+    		<content></content>
+			<apps:property name='label' value='label_1'/>
+			<apps:property name='subject' value='label_1_prop_1'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+
+    	<entry>
+    		<category term='filter'></category>
+    		<title>Mail Filter</title>
+    		<content></content>
+			<apps:property name='label' value='label_1'/>
+			<apps:property name='hasTheWord' value='(label_1_prop_2_word_1) OR (label_1_prop_2_word_1)'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+
+    	<entry>
+    		<category term='filter'></category>
+    		<title>Mail Filter</title>
+    		<content></content>
+			<apps:property name='label' value='label_2'/>
+			<apps:property name='from' value='from@email.com'/>
+			<apps:property name='to' value='to@email.com'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+</feed>
